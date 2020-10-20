@@ -10,5 +10,6 @@ Sort Algorithms are included:
   <br>
   <center>
   <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
+   <img src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
     </center>
  Reference: geekforgeeks.com
