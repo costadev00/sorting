@@ -17,4 +17,11 @@ Sort Algorithms are included:
  <h2>Bubble Sort</h2>
  <br>
  <h2>Selection Sort</h2>
+ The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+1) The subarray which is already sorted.
+2) Remaining subarray which is unsorted.
+
+In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+<b> Its good to use for arrays that´s not too big, and for easy implementation steps require.</b>
+ <br>
  Reference: geekforgeeks.com
