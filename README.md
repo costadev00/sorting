@@ -3,6 +3,7 @@
 Sort Algorithms are included:
 <center><ul>
   <li>Bubble Sort</li>
+ ## Clonando o Repositório ##
   <li>Selection Sort</li>
   <li>Insertion Sort</li>
 <ul>
