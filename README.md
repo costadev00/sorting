@@ -14,7 +14,7 @@ Sort Algorithms are included:
     </center>
  
  
- <h4>Bubble Sort</h4>
+ <h2>Bubble Sort</h2>
  <br>
- <h4>Selection Sort</h4>
+ <h2>Selection Sort</h2>
  Reference: geekforgeeks.com
