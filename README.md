@@ -2,8 +2,7 @@
  Repository to store sorting algorithms learned by Matheus Costa during his graduation.
 Sort Algorithms are included:
 <center><ul>
-  <li>Bubble Sort</li>
- #Clonando o Repositório
+  <li href="#Bubble Sort">Bubble Sort</li>
   <li>Selection Sort</li>
   <li>Insertion Sort</li>
 <ul>
