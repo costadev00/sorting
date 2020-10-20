@@ -7,7 +7,6 @@ Sort Algorithms are included:
   <li>Insertion Sort</li>
 <ul>
   </center>
-  <br>
  <h4>The explanation to every algorithm is on README of every "name_of_algo.h"</h4>
   <center>
   <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
