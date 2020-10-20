@@ -24,5 +24,5 @@ Sort Algorithms are included:
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.<br>
 <b> Its good to use for arrays that´s not too big, and for easy implementation steps require.</b>
  <br>
- <br><br>br>
+ <br><br><br>
  Reference: geekforgeeks.com
