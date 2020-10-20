@@ -2,7 +2,7 @@
  Repository to store sorting algorithms learned by Matheus Costa during his graduation.
 Sort Algorithms are included:
 <center><ul>
-  <li href="#Bubble Sort">Bubble Sort</li>
+  <li>Bubble Sort</li>
   <li>Selection Sort</li>
   <li>Insertion Sort</li>
 <ul>
@@ -12,4 +12,9 @@ Sort Algorithms are included:
   <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
    <img src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
     </center>
+ 
+ 
+ <h4>Bubble Sort</h4>
+ <br>
+ <h4>Selection Sort</h4>
  Reference: geekforgeeks.com
