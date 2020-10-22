@@ -8,6 +8,7 @@ using namespace std;
 // ---------------------------
 // Sort Functions
 // ---------------------------
+#include "bubble-Sort.h"
 #include "selection-Sort.h"
 
 //Prototipes
@@ -31,12 +32,12 @@ int main()
         {
             cin >> vet[i];
         }
-
-        printf("0 -- Termina o programa\n");
+        // cout << endl;
         switch (opcao)
         {
         case 1:
-            // buubleSort(vet, qtdNums);
+            bubbleSort(vet, qtdNums);
+            printArray(vet, qtdNums);
             break;
         case 2:
             selectionSort(vet, qtdNums);
@@ -59,7 +60,12 @@ int main()
 void printArray(int arr[], int size)
 {
     int i;
+    printf("\n");
+    cout << "Vetor ordenado: ";
     for (i = 0; i < size; i++)
+    {
         cout << arr[i] << " ";
-    cout << endl;
+    }
+    cout << endl
+         << endl;
 }
