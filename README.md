@@ -15,6 +15,12 @@ Sort Algorithms are included:
  
  
  <h2>Bubble Sort</h2>
+ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.<br>
+ <b>Worst and Average Case Time Complexity</b>: O(n*n). Worst case occurs when array is reverse sorted.<br>
+ <b>Best Case Time Complexity</b>: O(n). Best case occurs when array is already sorted.<br>
+ <b>Auxiliary Space</b>: O(1)<br>
+ <b>Boundary Cases</b>: Bubble sort takes minimum time (Order of n) when elements are already sorted.<br>
+ <b>Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm.</b><br>
  <br>
  <h2>Selection Sort</h2>
  The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
