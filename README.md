@@ -2,9 +2,9 @@
  Repository to store sorting algorithms learned by Matheus Costa during his graduation.
 Sort Algorithms are included:
 <center><ul>
- <li><h5>Bubble Sort</h5></li>
- <li><h5>Selection Sort</h5></li>
- <li><h5>Insertion Sort</h5></li>
+ <li>Bubble Sort</li>
+ <li>Selection Sort</li>
+ <li>Insertion Sort</li>
 <ul>
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
