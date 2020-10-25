@@ -24,6 +24,10 @@ int main()
         printf("2 -- Selection Sort\n");
         printf("\n0 -- Termina o programa\n");
         cin >> opcao;
+        if (opcao == 0)
+        {
+            exit(0);
+        }
         printf("Digite quantos numeros devem ser ordenados\n");
         cin >> qtdNums;
         int vet[qtdNums];
