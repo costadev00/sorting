@@ -9,8 +9,8 @@ Sort Algorithms are included:
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
   <center>
-  <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
-  <img align="right" src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
+   <img align="left" src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
+  <img align="right" src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
     </center>
  
  
