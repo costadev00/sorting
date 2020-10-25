@@ -36,4 +36,4 @@ The good thing about selection sort is it never makes more than O(n) swaps and c
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <h2></h2>
  <br>
- Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/"geeksforgeeks.org/sorting-algorithms/</a>
+ Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
