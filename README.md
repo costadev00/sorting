@@ -34,7 +34,7 @@ In every iteration of selection sort, the minimum element (considering ascending
 <br>
 Auxiliary Space: O(1)
 The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
- <br><br><br>
+ <br><br>
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <h2></h2>
  <br>
