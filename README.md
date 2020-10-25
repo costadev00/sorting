@@ -9,7 +9,7 @@ Sort Algorithms are included:
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
    <img align="left" src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
-  <img align="right" src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
+  <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
  <br><br>
  <h2>Bubble Sort</h2>
  Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.<br>
