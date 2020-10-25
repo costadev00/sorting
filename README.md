@@ -21,7 +21,8 @@ Sort Algorithms are included:
  <b>Auxiliary Space</b>: O(1)<br>
  <b>Boundary Cases</b>: Bubble sort takes minimum time (Order of n) when elements are already sorted.<br>
  <b>Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm.</b>
- <br>
+ <br><br>
+ <img src="https://media.giphy.com/media/nfq7ThNeMbfCfGDGu2/giphy.gif"/>
  <h2>Selection Sort</h2>
  The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
 1) The subarray which is already sorted.
