@@ -34,6 +34,7 @@ Auxiliary Space: O(1)
 The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
  <br><br>
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
- <h2></h2>
+ <br>
+ <h2>Insertion Sort</h2>
  <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
