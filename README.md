@@ -10,7 +10,7 @@ Sort Algorithms are included:
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
   <center>
   <img src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
-   <img src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
+  <img src="https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif"/>
     </center>
  
  
@@ -35,6 +35,7 @@ In every iteration of selection sort, the minimum element (considering ascending
 Auxiliary Space: O(1)
 The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
  <br>
+ <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <h2></h2>
  <br>
  Reference: geekforgeeks.com
