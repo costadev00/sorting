@@ -36,5 +36,13 @@ The good thing about selection sort is it never makes more than O(n) swaps and c
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <br>
  <h2>Insertion Sort</h2>
+ <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
+ <b>Algorithm</b>
+  <p>To sort an array of size n in ascending order:</p>
+  <p>1: Iterate from arr[1] to arr[n] over the array.</p>
+  <p>2: Compare the current element (key) to its predecessor.</p>
+  <p>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</p>
+ <br><br>
+ <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
