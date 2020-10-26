@@ -45,6 +45,6 @@ Auxiliary Space: O(1)
   <li>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</li>
   </ul>
  <br>
- <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
+ <img src="https://media.giphy.com/media/28cSLDjI0mJFZQOyin/giphy.gif"/>
  <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
