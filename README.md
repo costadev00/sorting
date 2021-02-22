@@ -47,4 +47,12 @@ Auxiliary Space: O(1)
  <br>
  <img src="https://media.giphy.com/media/28cSLDjI0mJFZQOyin/giphy.gif"/>
  <br>
+ <h2>Binary Insertion Sort</h2>
+ <p>We can use binary search to reduce the number of comparisons in normal insertion sort. Binary Insertion Sort uses binary search to find the proper location to insert the selected item at each iteration. 
+In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the worst case. We can reduce it to O(log n) by using binary search.</p>
+ <p> <b>Time Complexity</b>The algorithm as a whole still has a running worst-case running time of O(n2) because of the series of swaps required for each insertion.</p>
+ <img src="https://media.giphy.com/media/HJwkuOw1NRCfqk7Ttr/giphy.gif"/>
+ <br>
+ 
+ <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
