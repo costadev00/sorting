@@ -62,6 +62,9 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
   <li>3.Call mergeSort for second half</li>
   <li>4.Merge the two halves sorted</li>
  </ul>
+ <p><b>Time Complexity</b> Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
+  T(n) = 2T(n/2) + θ(n)</p>
+ <p>Merge Sort is useful for sorting linked lists in O(nLogn) time.In the case of linked lists, the case is different mainly due to the difference in memory allocation of arrays and linked lists. Unlike arrays, linked list nodes may not be adjacent in memory. Unlike an array, in the linked list, we can insert items in the middle in O(1) extra space and O(1) time. Therefore, the merge operation of merge sort can be implemented without extra space for linked lists.</p>
  <img src="/Merge-Sort-Tutorial.png"/>
  <br>
  <br>
