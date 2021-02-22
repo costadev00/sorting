@@ -21,28 +21,30 @@ Sort Algorithms are included:
  <img src="https://media.giphy.com/media/nfq7ThNeMbfCfGDGu2/giphy.gif"/>
  <br>
  <h2>Selection Sort</h2>
- The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
-1) The subarray which is already sorted.
-2) Remaining subarray which is unsorted.
-
-In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.<br>
+ <p>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.</p>
+ <ul>
+<li>1: The subarray which is already sorted.</li>
+<li>2: Remaining subarray which is unsorted.</li>
+</ul>
+<p>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.</p>
 <b> Its good to use for arrays that´s not too big, and for easy implementation steps require.</b>
-<br>
-<b>Time Complexity</b>: O(n2) as there are two nested loops.
+<b>Time Complexity</b>: O(n2) as there are two nested loops.</b>
 <br>
 Auxiliary Space: O(1)
-The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
- <br><br>
+<p>The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.</p>
+ <br>
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <br>
  <h2>Insertion Sort</h2>
  <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
  <b>Algorithm</b>
   <p>To sort an array of size n in ascending order:</p>
-  <p>1: Iterate from arr[1] to arr[n] over the array.</p>
-  <p>2: Compare the current element (key) to its predecessor.</p>
-  <p>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</p>
- <br><br>
+  <ul>
+  <li>1: Iterate from arr[1] to arr[n] over the array.</li>
+  <li>2: Compare the current element (key) to its predecessor.</li>
+  <li>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</li>
+  </ul>
+ <br>
  <img src="https://media.giphy.com/media/z3iMTsKMWSEDBLtCy2/giphy.gif"/>
  <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>

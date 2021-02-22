@@ -10,52 +10,68 @@ using namespace std;
 // ---------------------------
 #include "bubble-Sort.h"
 #include "selection-Sort.h"
+#include "insertion-Sort.h"
+#include "binary_insertion-Sort.h"
 
 //Prototipes
 void printArray(int arr[], int size);
 
 int main()
 {
-    int opcao = 1, qtdNums;
+    int option = 1, num_len;
     do
     {
-        printf("Digite o metodo pelo qual seu vetor deve ser ordenado\n");
+        printf("Enter the method by which your array should be ordered\n");
         printf("1 -- Bubble Sort\n");
         printf("2 -- Selection Sort\n");
-        printf("\n0 -- Termina o programa\n");
-        cin >> opcao;
-        if (opcao == 0)
+        printf("3 -- Insertion Sort\n");
+        printf("4 -- GCC Sort\n");
+        printf("5 -- BinaryInsertion Sort\n");
+        printf("\n0 -- Finish the applicattion\n");
+        cin >> option;
+        if (option == 0)
         {
             exit(0);
         }
-        printf("Digite quantos numeros devem ser ordenados\n");
-        cin >> qtdNums;
-        int vet[qtdNums];
-        printf("Digite os numeros\n");
-        for (int i = 0; i < qtdNums; i++)
+        printf("How many numbers array will have?\n");
+        cin >> num_len;
+        int arr[num_len];
+        printf("Enter the numbers\n");
+        for (int i = 0; i < num_len; i++)
         {
-            cin >> vet[i];
+            cin >> arr[i];
         }
         // cout << endl;
-        switch (opcao)
+        switch (option)
         {
         case 1:
-            bubbleSort(vet, qtdNums);
-            printArray(vet, qtdNums);
+            bubbleSort(arr, num_len);
+            printArray(arr, num_len);
             break;
         case 2:
-            selectionSort(vet, qtdNums);
-            printArray(vet, qtdNums);
+            selectionSort(arr, num_len);
+            printArray(arr, num_len);
             break;
-
+        case 3:
+            insertionSort(arr, num_len);
+            printArray(arr, num_len);
+            break;
+        case 4:
+            sort(arr, arr + num_len);
+            printArray(arr, num_len);
+            break;
+        case 5:
+            insertionSort2(arr, num_len);
+            printArray(arr, num_len);
+            break;
         case 0:
-            printf("Ate a proxima!!!\n");
+            printf("See u, thanks for coming!!!\n");
             break;
         default:
-            printf("Digite uma opcao válida\n");
+            printf("Please enter a valid option\n");
             break;
         }
-    } while (opcao != 0);
+    } while (option != 0);
 
     return 0;
 }
@@ -65,7 +81,7 @@ void printArray(int arr[], int size)
 {
     int i;
     printf("\n");
-    cout << "Vetor ordenado: ";
+    cout << "Array ordered: ";
     for (i = 0; i < size; i++)
     {
         cout << arr[i] << " ";

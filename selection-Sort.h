@@ -1,4 +1,4 @@
-void selectionSort(int arr[], int n)
+void selectionSort(long long int arr[], long long int n)
 {
     int i, j, min_idx;
 
