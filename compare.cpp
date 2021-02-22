@@ -7,6 +7,7 @@ using namespace std;
 #include "selection-Sort.h"
 #include "insertion-Sort.h"
 #include "binary_insertion-Sort.h"
+#include "merge-Sort.h"
 
 // Number of elements to be sorted
 //you can define how much elements your computer handle
@@ -29,7 +30,7 @@ int main()
      // we repeat this loop on every different method, i dont find a better solutions :3
      for (int i = 0; i < N; i++)
      {
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      // calculate time taken by C++ stable_sort function
      begin = clock();
@@ -43,7 +44,7 @@ int main()
      for (int i = 0; i < N; i++)
      {
 
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      time_spent = 0.0;
      begin = clock();
@@ -53,10 +54,23 @@ int main()
      cout << "Time taken by C++ sort() - "
           << time_spent << endl;
 
+     // calculate time taken by MergeSort function
+     for (int i = 0; i < N; i++)
+     {
+
+          arr[i] = rand() % 400000;
+     }
+     time_spent = 0.0;
+     begin = clock();
+     mergeSort(arr, 0, N - 1);
+     end = clock();
+     time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+     cout << "Time taken by MergeSort() - "
+          << time_spent << endl;
      //calculate time taken by insertionBinarySort function
      for (int i = 0; i < N; i++)
      {
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      time_spent = 0.0;
      begin = clock();
@@ -69,7 +83,7 @@ int main()
      //calculate time taken by insertionSort function
      for (int i = 0; i < N; i++)
      {
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      time_spent = 0.0;
      begin = clock();
@@ -82,7 +96,7 @@ int main()
      // calculate time taken by selectionSort function
      for (int i = 0; i < N; i++)
      {
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      time_spent = 0.0;
      begin = clock();
@@ -95,7 +109,7 @@ int main()
      //calculate time taken by bubbleSort function
      for (int i = 0; i < N; i++)
      {
-          arr[i] = rand() % 100000;
+          arr[i] = rand() % 400000;
      }
      time_spent = 0.0;
      begin = clock();
