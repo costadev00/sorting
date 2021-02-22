@@ -53,6 +53,16 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  <p> <b>Time Complexity: </b>The algorithm as a whole still has a running worst-case running time of O(n2) because of the series of swaps required for each insertion.</p>
  <img src="https://media.giphy.com/media/HJwkuOw1NRCfqk7Ttr/giphy.gif"/>
  <br>
- 
+ <h2>Merge Sort</h2>
+ <p>Merge sort is based on Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. See the following implementation for details.</p>
+ <b>Steps:</b>
+ <ul>
+  <li>1.Find the middle point to divide the array into two halves</li>
+  <li>2.Call mergeSort for first half</li>
+  <li>3.Call mergeSort for second half</li>
+  <li>4.Merge the two halves sorted</li>
+ </ul>
+ <img src="/Merge-Sort-Tutorial.png"/>
+ <br>
  <br>
  Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
