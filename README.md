@@ -55,13 +55,16 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  <br>
  <h2>Merge Sort</h2>
  <p>Merge sort is based on Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. See the following implementation for details.</p>
+ <p>Merge Sort a subarray [a...b] as follows:</p>
  <b>Steps:</b>
  <ul>
-  <li>1.Find the middle point to divide the array into two halves</li>
-  <li>2.Call mergeSort for first half</li>
-  <li>3.Call mergeSort for second half</li>
-  <li>4.Merge the two halves sorted</li>
+  <li>1. If a = b, do not do anything, because the subarray is already sorted</li>
+  <li>2.Calculate the position of the middle element: k = ⌊(a+b)/2⌋</li>
+  <li>3.Recursively sort the subarray array[a...k]</li>
+  <li>4.Recursively sort the subarray array[k+1...b]</li>
+  <li>5.Merge the sorted subarray array[a...k] and array[k+1...b] into the sorted subarray array[a...b]</li>
  </ul>
+ <p> Merge sort is an efficient algorithm, because it halves the size of the subarray at each step. The recursion consists of O(log n) level and processing each level takes O(n) time.</p>
  <p><b>Time Complexity</b> Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
   T(n) = 2T(n/2) + θ(n)</p>
  <p>Merge Sort is useful for sorting linked lists in O(nLogn) time.In the case of linked lists, the case is different mainly due to the difference in memory allocation of arrays and linked lists. Unlike arrays, linked list nodes may not be adjacent in memory. Unlike an array, in the linked list, we can insert items in the middle in O(1) extra space and O(1) time. Therefore, the merge operation of merge sort can be implemented without extra space for linked lists.</p>
