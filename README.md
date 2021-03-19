@@ -5,6 +5,8 @@ Sort Algorithms are included:
  <li>Bubble Sort</li>
  <li>Selection Sort</li>
  <li>Insertion Sort</li>
+ <li>Binary Insertion Sort</li>
+ <li>Merge Sort</li>
 <ul>
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
