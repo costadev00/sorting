@@ -9,7 +9,7 @@ Sort Algorithms are included:
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
   <img align="left" width="400" height="300" src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
- <img align="right" width="400" height="300" src="/zmeme.jpg"/>
+ <img width="400" height="300" src="/zmeme.jpg"/>
  <h2>Bubble Sort</h2>
  Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.<br>
  <b>Worst and Average Case Time Complexity</b>: O(n*n). Worst case occurs when array is reverse sorted.<br>
