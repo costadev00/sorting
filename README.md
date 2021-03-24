@@ -1,5 +1,5 @@
 # sorting
- Repository to store sorting algorithms learned by Matheus Costa during his graduation.
+ Repository to store important sorting algorithms learned by Matheus Costa during his graduation. You can see the explanation of each algorithm above. Also we have here a compar file that does an empirical analysis, comparing time of the sort algorithms. There are include C++ sort() and stable_sort() on this file.
 Sort Algorithms are included:
 <center><ul>
  <li>Bubble Sort</li>
@@ -10,6 +10,7 @@ Sort Algorithms are included:
 <ul>
   </center>
  <h4>To the explanation of every algorithm and specific details, just scroll  😁 😉 </h4>
+ <h5> have a great tour</h5>
   <img align="left" width="400" height="300" src="https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif"/>
  <img width="400" height="300" src="/zmeme.jpg"/>
  <h2>Bubble Sort</h2>
