@@ -30,7 +30,7 @@ Sort Algorithms are included:
 </ul>
 <p>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.</p>
 <b> Its good to use for arrays that´s not too big, and for easy implementation steps require.</b>
-<b>Time Complexity</b>: O(n2) as there are two nested loops.</b>
+<b>Time Complexity</b>: O(2*n) as there are two nested loops. And this time is the same to worst and best case, because in Selection Sort, it will go through the array n*2 time in every interaction </b>
 <br>
 Auxiliary Space: O(1)
 <p>The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.</p>
