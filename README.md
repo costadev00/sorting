@@ -77,7 +77,7 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  </ul>
  <p> Merge sort is an efficient algorithm, because it halves the size of the subarray at each step. The recursion consists of O(log n) level and processing each level takes O(n) time.</p>
  <p><b>Time Complexity</b> Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
-  T(n) = 2T(n/2) + θ(n), briefly we are saying that is workd on O(n*log n).
+  T(n) = 2T(n/2) + θ(n), briefly we are saying that is works on O(n*log n).
  <ul>
   <li>Best, Average, and Worst case: All of three works in O(n*log n), as merge sort always divides the array in two halves and takes linear time to merge two halves.</li>
   </ul>
