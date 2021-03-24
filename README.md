@@ -62,7 +62,6 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  <ul>
   <li>Average and Best Case: O(log n), because we are using binary search to verify the array.</li>
   <li>Worst Case: O(2*n) when the array is in reverse order</li>
-  <li>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</li>
   </ul>
  <br>
  <h2>Merge Sort</h2>
