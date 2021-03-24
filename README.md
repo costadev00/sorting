@@ -73,4 +73,3 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  <img src="/Merge-Sort-Tutorial.png"/>
  <br>
  <br>
- Reference: <a href="https://www.geeksforgeeks.org/sorting-algorithms/">geeksforgeeks.org/sorting-algorithms/</a>
