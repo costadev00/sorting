@@ -30,7 +30,7 @@ Sort Algorithms are included:
 </ul>
 <p>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.</p>
 <b> Its good to use for arrays that´s not too big, and for easy implementation steps require.</b>
-<b>Time Complexity</b>: O(2*n) as there are two nested loops. And this time is the same to worst and best case, because in Selection Sort, it will go through the array n*2 time in every interaction </b>
+<b>Time Complexity</b>: O(2*n) as there are two nested loops. And this time is the same to worst and best case, because in Selection Sort, it will go through the array n*2 time in every interaction. </b>
 <br>
 Auxiliary Space: O(1)
 <p>The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.</p>
@@ -46,6 +46,11 @@ Auxiliary Space: O(1)
   <li>2: Compare the current element (key) to its predecessor.</li>
   <li>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</li>
   </ul>
+ <b> Time Complexity</b>
+ <ul>
+  <li>Worst Case: O(2*n) and occurs when the array is in reverse order</li>
+  <li>Best Case: O(n) when the array is already sorted, because it will not be necessary to swap any elements, just, verify the array</li>
+  </ul>
  <br>
  <img src="https://media.giphy.com/media/28cSLDjI0mJFZQOyin/giphy.gif"/>
  <br>
@@ -54,6 +59,11 @@ Auxiliary Space: O(1)
 In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the worst case. We can reduce it to O(log n) by using binary search.</p>
  <p> <b>Time Complexity: </b>The algorithm as a whole still has a running worst-case running time of O(n2) because of the series of swaps required for each insertion.</p>
  <img src="https://media.giphy.com/media/HJwkuOw1NRCfqk7Ttr/giphy.gif"/>
+ <ul>
+  <li>Average and Best Case: O(log n), because we are using binary search to verify the array.</li>
+  <li>Worst Case: O(2*n) when the array is in reverse order</li>
+  <li>3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.</li>
+  </ul>
  <br>
  <h2>Merge Sort</h2>
  <p>Merge sort is based on Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. See the following implementation for details.</p>
