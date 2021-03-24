@@ -1,5 +1,5 @@
 # sorting
- Repository to store important sorting algorithms learned by Matheus Costa during his graduation. You can see the explanation of each algorithm above. Also we have here a compar file that does an empirical analysis, comparing time of the sort algorithms. There are include C++ sort() and stable_sort() on this file.
+ Repository to store important sorting algorithms learned by Matheus Costa during his graduation. You can check the explanation of each algorithm above. Also we have here a compar file that does an empirical analysis, comparing time of the sort algorithms. There are include C++ sort() and stable_sort() on this file.
 Sort Algorithms are included:
 <center><ul>
  <li>Bubble Sort</li>
