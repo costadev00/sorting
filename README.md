@@ -62,7 +62,7 @@ In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the wo
  <img src="https://media.giphy.com/media/HJwkuOw1NRCfqk7Ttr/giphy.gif"/>
  <ul>
   <li>Average and Best Case: O(log n), because we are using binary search to verify the array.</li>
-  <li>Worst Case: O(2*n) when the array is in reverse order</li>
+  <li>Worst Case: O(n^2) when the array is in reverse order</li>
   </ul>
  <br>
  <h2>Merge Sort</h2>
